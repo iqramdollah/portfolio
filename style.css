@@ -364,7 +364,6 @@ h1 {
 .pc:hover::before {
   background: linear-gradient(90deg, transparent, #818CF850, #EC489950, transparent);
 }
-.wide { grid-column: 1 / -1; }
 
 .pc-top {
   display: flex;
