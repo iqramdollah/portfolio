@@ -382,6 +382,19 @@ h1 {
 }
 .pb-d { background: #10B98112; color: #34D399; border: 1px solid #10B98120; }
 .pb-i { background: #6366F112; color: #A78BFA; border: 1px solid #6366F122; }
+.pb-p { background: #EC489912; color: #F472B6; border: 1px solid #EC489922; }
+
+.pc-live {
+  font-size: clamp(10px, 1vw, 12px);
+  font-weight: 500;
+  color: #F472B6;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: opacity .2s;
+}
+.pc-live:hover { opacity: .7; }
 .pi {
   width: clamp(26px, 3vw, 34px);
   height: clamp(26px, 3vw, 34px);
